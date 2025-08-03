@@ -171,28 +171,18 @@
 // document.write("Total cost of buying 5 tickets to a movie is "+ticketPrice+"PKR")
 
 //___________________Chap-05 Question 05_____________/
-// var num1 = 4
-// document.write("Table of "+num1)
-// num1 *= 1;
-// document.write("<br/>4 X 1 = " +num1)
-// num2 = 4*2
-// document.write("<br/>4 X 2 = "+num2)
-// num3 = 4*3
-// document.write("<br/>4 X 3 = "+num3)
-// num4 = 4*4
-// document.write("<br/>4 X 4 = "+num4)
-// num5 = 4*5
-// document.write("<br/>4 X 5 = "+num5)
-// num6 = 4*6
-// document.write("<br/>4 X 6 = "+num6)
-// num7 = 4*7
-// document.write("<br/>4 X 7 = "+num7)
-// num8 = 4*8
-// document.write("<br/>4 X 8 = "+num8)
-// num9 = 4*9
-// document.write("<br/>4 X 9 = "+num9)
-// num10 = 4*10
-// document.write("<br/>4 X 10= "+num10)
+// var num = 4
+// document.write("Table of "+num)
+// document.write("<br/>"+num+ " X 1 = " +num*1)
+// document.write("<br/>"+num+" X 2 = "+num*2)
+// document.write("<br/>"+num+" X 3 = "+num*3)
+// document.write("<br/>"+num+" X 4 = "+num*4)
+// document.write("<br/>"+num+" X 5 = "+num*5)
+// document.write("<br/>"+num+" X 6 = "+num*6)
+// document.write("<br/>"+num+" X 7 = "+num*7)
+// document.write("<br/>"+num+" X 8 = "+num*8)
+// document.write("<br/>"+num+" X 9 = "+num*9)
+// document.write("<br/>"+num+" X 10= "+num*10)
 
 //___________________Chap-05 Question 06_____________/
 // var celsiusTemperature = 25
@@ -201,5 +191,97 @@
 // var fahrenheitTemperature = 70
 // var convetCelsius = (fahrenheitTemperature - 32) * 5/9
 // document.write("<br/>"+fahrenheitTemperature+"<sup>o</sup>F is "+convetCelsius+"<sup>o</sup>C")
+
+//___________________Chap-05 Question 07_____________/
+// var priceItem1 = 650
+// var priceItem2 = 100
+// var orderQuantityItem1 =3
+// var orderQuantityItem2 =7
+// var shoppingCharges = 100
+
+// var costItem1 = priceItem1 * orderQuantityItem1
+// var costItem2 = priceItem2 * orderQuantityItem2
+
+// var totalCost = costItem1 + costItem2
+
+// document.write("<b>Shopping Cost</b>")
+// document.write("<br/><br/><br/>Price of Item 1 is: "+priceItem1)
+// document.write("<br/>Quantity of Item 1 is: "+priceItem1)
+// document.write("<br/>Price of Item 2 is: "+priceItem2)
+// document.write("<br/>Quantity of Item 2 is: "+priceItem2)
+// document.write("<br/>Shopping Charges: "+shoppingCharges)
+
+// document.write("<br/><br/>Total Cost is: "+totalCost)
+
+//___________________Chap-05 Question 08_____________/
+// var totalMarks = 980
+// var obtainMarks = 804
+// var percentage = obtainMarks / totalMarks *100
+
+// document.write("<b>Marks Sheet</b>")
+// document.write("<br/><br/><br/>Total marks: "+totalMarks)
+// document.write("<br/>Obtain marks: "+obtainMarks)
+// document.write("<br/>Percentage: "+percentage+"%")
+
+//___________________Chap-05 Question 09_____________/
+// var usDollar = 10
+// var saudiRiyal = 25
+// var exchaneRateUsDollar = 104.80
+// var exchaneRateSaudiRiyal =28
+// var usDollarToPrk = usDollar *exchaneRateUsDollar
+// var saudiRiyalToPrk = saudiRiyal *exchaneRateSaudiRiyal
+
+// var totalAmount = usDollarToPrk + saudiRiyalToPrk
+
+// document.write("<b>Currency in PKR</b>")
+// document.write("<br/><br/><br/>Total Currency in PKR: "+totalAmount)
+
+//___________________Chap-05 Question 10_____________/
+// var num = 15
+// document.write("<br/>Number: "+num)
+// num += 5
+// document.write("<br/>Add 5: "+num)
+// num *=10
+// document.write("<br/>Multiply by 10: "+num)
+// num /=2
+// document.write("<br/>Divided the result by 2: "+num)
+
+//___________________Chap-05 Question 11_____________/
+// var currentYear = 2016
+// var birthYear = 1992
+// var currentage = currentYear - birthYear
+// document.write("<b>Age Calculator</b>")
+// document.write("<br/><br/><br/>Current Year: "+currentYear)
+// document.write("<br/>Birth Year: "+birthYear)
+// document.write("<br/>Your age is: "+currentage)
+
+//___________________Chap-05 Question 12_____________/
+// var circleRadius = 20
+// var formulaCircle = 2 * 3.142 *circleRadius
+// var formulaArea = 3.142 *(circleRadius**2)
+// document.write("<b>The Geometrizer:</b>")
+// document.write("<br/><br/><br/>Radius of a circle: "+circleRadius)
+// document.write("<br/>The circumference of a circle: "+formulaCircle)
+// document.write("<br/>The area of circle: "+formulaArea)
+
+//___________________Chap-05 Question 13_____________/
+// var favSnack ="Chocolate Chip"
+// var currentAge = 15
+// var maxAge = 65
+// var snackPerDay = 3
+// var remainAge = maxAge - currentAge
+// var snackAsAge =remainAge *snackPerDay
+// var needSnack = 356 *snackAsAge
+// var snackPerYear = 356 *snackPerDay
+
+// document.write("<h2>The Lifetime Supply Calculator:</h2>")
+// document.write("<br/><br/>Favorite snack: "+favSnack)
+// document.write("<br/>current age: "+currentAge)
+// document.write("<br/>Extimated maximum age: "+maxAge)
+// document.write("<br/>Amount of snack per day: "+snackPerDay)
+// document.write("<br/>You will need "+snackAsAge+" to last you until the ripe old age of: "+maxAge)
+// document.write("<br/>You will need"+ snackPerYear+" per year to last you until the remaining age of: "+remainAge)
+
+
 
 //------------------------------END-------------------------------------//
